@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb",
+        "airbnb/hooks"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "arrow-parens": [ "error", "as-needed"],
+        "indent": "off",
+        "linebreak-style":"off",
+        "max-len": "off"
+    }
+}
